@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="pb-12 text-white bg-body font-barlow">
+
+    <header class="py-6">
+        <div class="container flex items-center justify-between w-full px-8 mx-auto md:px-14 lg:px-24">
+            <div class="text-lg font-bold">Steffen Monphichai Tersbøl Petersen</div>
+            <div class="items-center hidden space-x-12 md:flex">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#work">My work</a>
+                <a href="#clients">Clients</a>
+                <a href="#hire"><button class="px-6 py-2 font-bold bg-theme">Hire me</button></a>
+            </div>
+            <div class="md:hidden">
+                <svg width="26" height="18" viewbox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z"
+                        fill="white" />
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <div class="container flex items-center justify-between w-full px-8 mx-auto mt-16 md:px-14 lg:px-24">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <nav class="fixed inline-block lg:mr-24 lg:w-4 left-percentage xl:block">
+                <div class="absolute space-y-6 transform -translate-x-1/2 left-50 mt-36">
+                    <a href="#" class="block border-4 rounded-full nav-dot selected-circle w-7 h-7 border-nav bg-body">
+                        <span class="px-2 py-1 ml-10 bg-black rounded-md opacity-0">Home</span>
+                    </a>
+                    <a href="#work" class="block border-4 rounded-full nav-dot w-7 h-7 border-nav bg-body">
+                        <span class="px-2 py-1 ml-10 bg-black rounded-md opacity-0">Work</span>
+                    </a>
+                    <a href="#clients" class="block border-4 rounded-full nav-dot w-7 h-7 border-nav bg-body">
+                        <span class="px-2 py-1 ml-10 bg-black rounded-md opacity-0">Clients</span>
+                    </a>
+                    <a href="#hire" class="block border-4 rounded-full nav-dot w-7 h-7 border-nav bg-body">
+                        <span class="px-2 py-1 ml-10 bg-black rounded-md opacity-0">Contact</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="flex flex-wrap justify-center max-w-xl mt-0 lg:ml-20 md:justify-start md:my-36">
+                <h1 class="text-5xl font-bold text-center md:text-6xl lg:text-7xl md:text-left">Building <br> beautiful
+                    web experiences.</h1>
+                <div class="flex justify-center w-full md:justify-start">
+                    <button class="flex items-center px-8 py-4 mt-12 space-x-3 font-bold text-white bg-theme">
+                        <div>
+                            <svg width="22" height="22" viewbox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z"
+                                    fill="white" />
+                                <path
+                                    d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <a href="#work"><span>My work.</span></a>
+                    </button>
+
+                </div>
+            </div>
+            <img src="./img/Steffen.webp" alt="Steffen" class="right-0 w-2/4 mt-12 md:absolute md:mt-0 -z-1">
+        </div>
+    </div>
+
+    <!-- Works -->
+    <div class="container flex items-center justify-between w-full px-8 mx-auto mt-64 lg:ml-20 md:px-14 lg:px-24">
+        <section class="w-full">
+            <h2 id="work" class="secondary-title">My work</h2>
+            <p class="section-paragraph">A short selection of some of the projects I've made both school and freetime
+                projects</p>
+            <div class="grid grid-cols-1 gap-6 mt-6 md:grid-cols-2 lg:grid-cols-3">
+                <a href="./pages/test.html" target="_blank">
+                    <img src="./img/Gjerrild.jpg"
+                        class="object-cover w-full transition duration-300 ease-in-out bg-nav h-36 lg:h-72 hover:scale-105 rounded-corner">
+                </a>
+
+                <img src="./img/RDR2.jpg"
+                    class="object-cover w-full transition duration-300 ease-in-out bg-nav h-36 lg:h-72 hover:scale-105 rounded-corner">
+
+                <img src="./img/Golf2.jpg"
+                    class="object-cover w-full transition duration-300 ease-in-out bg-nav h-36 lg:h-72 hover:scale-105 rounded-corner">
+
+                <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80"
+                    class="object-cover w-full transition duration-300 ease-in-out bg-nav h-36 lg:h-72 hover:scale-105 rounded-corner">
+
+                <img src="https://images.unsplash.com/photo-1547119957-637f8679db1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                    class="object-cover w-full transition duration-300 ease-in-out bg-nav h-36 lg:h-72 hover:scale-105 rounded-corner">
+            </div>
+        </section>
+    </div>
+
+    <!-- Clients section -->
+    <div class="container flex items-center justify-between w-full px-8 mx-auto mt-64 lg:ml-20 md:px-14 lg:px-24">
+        <section class="w-full">
+            <h2 id="clients" class="secondary-title">Clients</h2>
+            <p class="section-paragraph">Worked with </p>
+
+            <!-- clients overview -->
+
+            <div class="my-16 space-y-12">
+                <div
+                    class="flex flex-wrap justify-center w-full p-16 border border-nav lg:px-32 lg:py-20 lg:space-x-32 lg:justify-start lg:flex-nowrap">
+
+                    <!-- Client Logo -->
+                    <div class="mb-6 lg:mb-0">
+                        <img class="mt-8" width="100" height="96" viewbox="0 0 80 96" fill="none" src="./img/Gv.webp"
+                            alt="house">
+                    </div>
+                    <!-- Client Info -->
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-3xl font-semibold text-white">Michael Abeloe</h3>
+                        <div class="flex flex-wrap justify-center w-full gap-3 mt-6 mb-8 lg:w-auto lg:justify-start">
+                            <div class="badge">UI/UX</div>
+                            <div class="badge">Frontend Development</div>
+                            <div class="badge">Wireframe and Mockup Designs</div>
+                        </div>
+
+                        <p class="text-secondary">I've had the pleasure of working with multiple Fortune 500 companies,
+                            designing and implementing both frontend and backend.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-wrap justify-center w-full p-16 border border-nav lg:px-32 lg:py-20 lg:space-x-32 lg:justify-start lg:flex-nowrap">
+
+                    <!-- Client Logo -->
+                    <div class="mb-6 lg:mb-0">
+                        <img class="mt-8" width="100" height="96" viewbox="0 0 80 96" fill="none"
+                            src="./img/3Dlogo.webp" alt="3D College">
+                    </div>
+                    <!-- Client Info -->
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-3xl font-semibold text-white">VidenDjurs</h3>
+                        <div class="flex flex-wrap justify-center w-full gap-3 mt-6 mb-8 lg:w-auto lg:justify-start">
+                            <div class="badge">UI/UX</div>
+                            <div class="badge">Frontend Development</div>
+                            <div class="badge">Wireframe and Mockup Designs</div>
+                            <div class="badge">Coding</div>
+                        </div>
+
+                        <p class="text-secondary">I've had the pleasure of working with multiple Fortune 500 companies,
+                            designing and implementing both frontend and backend.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Hire me -->
+    <div class="container flex items-center justify-between w-full px-8 mx-auto mt-64 lg:ml-20 md:px-14 lg:px-24">
+        <section class="w-full">
+            <h2 id="hire" class="secondary-title">Contact</h2>
+            <p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+            <div class="grid w-full gap-8 mt-16 lg:grid-cols-2 lg:gap-32">
+                <div class="space-y-12">
+                    <div>
+                        <label class="block mb-6 text-xl font-bold text-white">Name</label>
+                        <input class="w-full px-4 py-4 border border-input-border bg-input">
+                    </div>
+                    <div>
+                        <label class="block mb-6 text-xl font-bold text-white">Email</label>
+                        <input type="email" class="w-full px-4 py-4 border border-input-border bg-input">
+                    </div>
+                    <div>
+                        <label class="block mb-6 text-xl font-bold text-white">Message</label>
+                        <textarea type="email"
+                            class="w-full h-56 px-4 py-4 border resize-none border-input-border bg-input"></textarea>
+                    </div>
+                    <button class="px-6 py-2 font-bold text-white bg-theme">Send it!</button>
+                </div>
+
+                <div class="mt-12">
+                    <!-- Contact info -->
+                    <p class="text-secondary">+45 42 25 99 16</p>
+                    <a href="mailto:email@mydomain.com"
+                        class="block mt-3 underline text-secondary">stef303n@videndjurs.net</a>
+
+                    <!-- Socials -->
+                    <div class="flex mt-20 space-x-6">
+                        <!-- Github -->
+                        <a href="https://github.com/SteffenMTP" target="_blank">
+                            <img class="w-8 h-8 lg:w-12 lg:h-12" width="42" height="42" viewbox="0 0 42 42" fill="white"
+                                src="./img/github.svg" alt="">
+                        </a>
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/steffen-monphichai-tersboel-petersen/" target="_blank">
+                            <img class="w-8 h-8 lg:w-12 lg:h-12" width="42" height="42" viewbox="0 0 42 42" fill="white"
+                                src="./img/linkedin.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
